@@ -40,7 +40,7 @@ input[type="radio"].visually-hidden {
 }
 
 .button {
-  display: block;
+  display: inline-block;
   width: 240px;
   padding: 13px 0;
   font-size: 16px;
@@ -118,6 +118,7 @@ input[type="radio"].visually-hidden {
   border: 0;
 }
 
+/*navigation*/
 .main-navigation {
   display: flex;
   text-transform: uppercase;
@@ -229,6 +230,7 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
 }
 
+/*slider*/
 .slider {
   position: relative;
   background-color: #eeeeee;
@@ -332,6 +334,7 @@ input[type="radio"].visually-hidden {
 }
 
 /*main*/
+/*advantages*/
 .advantages {
   margin: 0;
   padding: 0;
