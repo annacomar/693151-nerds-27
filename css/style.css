@@ -231,6 +231,7 @@ input[type="radio"].visually-hidden {
 }
 
 /*slider*/
+/*здесь проверить переключается ли???*/
 .slider {
   position: relative;
   background-color: #eeeeee;
@@ -333,8 +334,7 @@ input[type="radio"].visually-hidden {
   margin-bottom: 41px;
 }
 
-/*main*/
-/*advantages*/
+/*main-index*/
 .advantages {
   margin: 0;
   padding: 0;
@@ -364,12 +364,12 @@ input[type="radio"].visually-hidden {
 }
 
 .advantages h3 {
+  margin-bottom: 17px;
   font-size: 24px;
   font-weight: bold;
   line-height: 30px;
   letter-spacing: normal;
   text-align: left;
-  margin-bottom: 17px;
   text-transform: uppercase;
   color: #000000;
 }
@@ -381,8 +381,8 @@ input[type="radio"].visually-hidden {
 .about {
   display: flex;
   justify-content: space-between;
-  padding-left: 2px;
   margin-bottom: 54px;
+  padding-left: 2px;
 }
 
 .about li {
@@ -397,28 +397,28 @@ input[type="radio"].visually-hidden {
 }
 
 .who-we-are {
+  padding-bottom: 32px;
+  padding-top: 77px;
   font-size: 45px;
   line-height: 45px;
   font-weight: 500;
   text-align: left;
   color: #000000;
-  padding-bottom: 32px;
-  padding-top: 77px;
 }
 
 .studio-nerds p {
+  margin-bottom: 35px;
   font-size: 16px;
   text-align: left;
   line-height: 24px;
   color: #283136;
   width: 616px;
-  margin-bottom: 35px;
 }
 
 .services-wrapper {
-  width: 429px;
   display: flex;
   flex-direction: column;
+  width: 429px;
 }
 
 .services-list {
@@ -439,26 +439,26 @@ input[type="radio"].visually-hidden {
 }
 
 .studio-nerds h4 {
+  margin-bottom: 26px;
   text-align: left;
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
   text-transform: uppercase;
-  margin-bottom: 26px;
 }
 
 .studio-nerds li {
+  vertical-align: top;
   padding-left: 35px;
   padding-bottom: 23px;
   line-height: 24px;
-  vertical-align: top;
 }
 
 .nerds-picture-wrapper {
-  width: 360px;
-  height: 208px;
   margin-top: 40px;
   margin-bottom: 33px;
+  width: 360px;
+  height: 208px;
 }
 
 .stats-nerds {
@@ -468,25 +468,25 @@ input[type="radio"].visually-hidden {
 }
 
 .what-we-do {
+  margin-bottom: 50px;
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 55px;
 }
 
 .stat-percents {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 325px;
+  width: 310px;
   font-size: 45px;
   font-weight: bold;
   line-height: 10px;
   text-align: left;
   color: #000000;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .percents {
@@ -556,7 +556,7 @@ input[type="radio"].visually-hidden {
   justify-content: center;
 }
 
-/*catalog styles*/
+/*catalog*/
 .catalog-title-wrapper {
   background-color: #eeeeee;
   margin-bottom: 60px;
@@ -648,10 +648,10 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-popup p {
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 18px;
   text-align: center;
-  padding-bottom: 30px;
   color: #666666
 }
 
@@ -677,13 +677,13 @@ input[type="radio"].visually-hidden {
 }
 
 .sort-title {
+  margin-right: 257px;
   font-size: 18px;
   line-height: 18px;
   text-align: left;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
-  margin-right: 257px;
 }
 
 .sort-by-category {
@@ -969,7 +969,7 @@ input[type="radio"].visually-hidden {
   height: 308px;
   background-color: white;
   top: 54px;
-  left: 140px;
+  left: 138px;
 }
 
 .write-us-text {
@@ -986,7 +986,7 @@ input[type="radio"].visually-hidden {
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
-  margin-bottom: 32px;
+  margin-bottom: 25px;
 }
 
 .write-us address {
