@@ -43,9 +43,9 @@ input[type="radio"].visually-hidden {
   display: inline-block;
   width: 240px;
   padding: 13px 0;
+  color: #ffffff;
   font-size: 16px;
   line-height: 18px;
-  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
@@ -84,13 +84,38 @@ input[type="radio"].visually-hidden {
   text-align: center;
 }
 
-.button.sort-by {
+.button.button-write-us:hover,
+.button.button-write-us:focus {
+  background-color: #e74246;
+  outline: inherit;
+}
+
+.button.button-write-us:active {
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  background-color: #d7373b;
+}
+
+.button.button-sort-by {
   width: 260px;
   height: 50px;
   background-color: #eeeeee;
+  font: inherit;
   font-size: 16px;
+  line-height: 18px;
   font-weight: 500;
   color: #000000;
+}
+
+.button.button-sort-by:hover,
+.button.button-sort-by:focus {
+  background-color: #dfdfdf;
+  outline: inherit;
+}
+
+.button.button-sort-by:active {
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  background-color: #d5d5d5;
+  outline: #d5d5d5;
 }
 
 .button.button-price {
@@ -1079,10 +1104,11 @@ input[type="radio"].visually-hidden {
   padding-top: 15px;
 }
 
-.popup-email-form {
-  display: none;
-}
+/*модальное окно*/
 
+/*.popup-email-form {
+  display: none;
+}*/
 .popup-email-form {
   display: flex;
   position: fixed;
@@ -1116,16 +1142,29 @@ input[type="radio"].visually-hidden {
 }
 
 .input-text {
+  vertical-align: center;
+  font: inherit;
+  color: rgba(68, 68, 68, 0.5);
   font-size: 16px;
   line-height: 18px;
-  color: rgba(68, 68, 68, 0.5);
-  vertical-align: center;
   text-align: left;
+  background-color: #ffffff;
+  border: 2px solid  #d7dcde;
+}
+
+.input-text:hover {
+  border: 2px solid  #b4b9bb;
+}
+.input-text:focus {
+  border: 2px solid #000000;
+}
+.input-text:invalid {
+  color: #e74246;
+  border: 2px solid #e74246;
 }
 
 .popup-email-form .text-message-content {
   width: 100%;
-  border: solid 2px #d7dcde;
 }
 
 .name-email {
