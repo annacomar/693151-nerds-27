@@ -274,7 +274,6 @@ input[type="radio"].visually-hidden {
 }
 
 /*slider*/
-/*здесь проверить переключается ли???*/
 .slider {
   position: relative;
   background-color: #eeeeee;
@@ -1271,22 +1270,26 @@ input[type="radio"].visually-hidden {
 }
 
 /*модальное окно*/
-/*.popup-email-form {
-  display: none;
-}*/
 .popup-email-form {
-  display: flex;
   position: fixed;
   text-align: center;
-  width: 960px;
-  height: 590px;
-  background-color: #eeeeee;
+  top: 100px;
+  left: 57%;
+  display: none;
+  width: 760px;
+  margin-left: -580px;
+  padding-left: 100px;
+  padding-top: 73px;
+  padding-right: 100px;
+  padding-bottom: 84px;
+  color: #000000;
+  background-color: #ffffff;
   box-shadow: 0px 20px 40px 0 rgba(0, 1, 1, 0.75);
 }
 
 .popup-email-form h3 {
-  display: flex;
-  width: 306px;
+  margin: 0;
+  margin-bottom: 49px;
   height: 33px;
   font-size: 45px;
   font-weight: 500;
@@ -1295,21 +1298,22 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
-.popup-email-form p {
-  width: 360px;
-  height: 50px;
-  border: solid 2px #d7dcde;
+.popup-email-form-label{
+  display:block;
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: inherit;
+  font-weight: bold;
+  line-height: 18px;
+  text-align: left;
+  color: inherit;
 }
 
-.popup-email-form input {
-  width: 100%;
-  border: solid 2px #d7dcde;
-}
-
-.input-text {
+.popup-email-form-input {
+  box-sizing: border-box;
   vertical-align: center;
-  font: inherit;
   color: rgba(68, 68, 68, 0.5);
+  opacity: 0.5;
   font-size: 16px;
   line-height: 18px;
   text-align: left;
@@ -1317,37 +1321,78 @@ input[type="radio"].visually-hidden {
   border: 2px solid #d7dcde;
 }
 
-.input-text:hover {
-  border: 2px solid #b4b9bb;
+.popup-email-form-input:hover {
+  border: solid 2px #b4b9bb;
 }
 
-.input-text:focus {
-  border: 2px solid #000000;
+.popup-email-form-input:focus {
+  color: #444444;
+  outline: solid 2px #000000;
 }
 
-.input-text:invalid {
+.popup-email-form-input:invalid {
   color: #e74246;
-  border: 2px solid #e74246;
-}
-
-.popup-email-form .text-message-content {
-  width: 100%;
+  border: solid 2px #e74246;
 }
 
 .name-email {
   display: flex;
   justify-content: space-between;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: bold;
-  text-align: left;
-  color: #000000;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.input-text {
+  display: flex;
+  width: 360px;
+  padding-left: 15px;
+  padding-top: 18px;
+  padding-right: 190px;
+  padding-bottom: 16px;
+}
+
+.input-text-name {
+  padding-right: 240px;
+}
+
+.input-textarea {
+  width: 100%;
+  padding-left: 15px;
+  padding-top: 14px;
+  padding-right: 594px;
+  padding-bottom: 60px;
+  margin-bottom: 47px;
 }
 
 .close-button {
   position: absolute;
-  top: 490%;
-  left: 20%;
+  top: 78px;
+  right: 90px;
   width: 21px;
   height: 21px;
+  background-image: url("../img/close-cross.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.3;
+  border: 0;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  opacity: 1;
+}
+
+.close-button:focus,
+.close-button:active {
+  opacity: 0.1;
+}
+
+.red {
+  margin-right: 600px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  outline: inherit;
 }

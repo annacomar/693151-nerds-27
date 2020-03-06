@@ -6,7 +6,8 @@
   <title>Студия Нёрдс: каталог шаблонов</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -290,28 +291,22 @@
     <h3 class="reset-text">Напишите нам</h3>
     <form class="contact-form" method="post" action="https://echo.htmlacademy.ru">
       <div class="name-email">
-        <p class="reset-text">
-          <label for="user-name">Ваше имя</label>
-          <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+        <p class="reset-text section-text-name">
+          <label class="popup-email-form-label" for="user-name">Ваше имя</label>
+          <input class="popup-email-form-input input-text input-text-name" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
         </p>
-      </div>
-      <div class="name-email">
         <p class="reset-text">
-          <label for="user-email">Ваш e-mail</label>
-          <input id="user-email" type="email" name="email" placeholder="e-mail@example.com">
+          <label class="popup-email-form-label" for="user-email">Ваш e-mail</label>
+          <input class="popup-email-form-input input-text" id="user-email" type="email" name="email" placeholder="e-mail@example.com">
         </p>
       </div>
       <p class="reset-text">
-        <label for="message-text">Текст письма</label>
-        <textarea class="text-message-content" id="message-text" name="text" placeholder="В свободной форме"></textarea>
+        <label class="popup-email-form-label" for="message-text">Текст письма</label>
+        <textarea class="popup-email-form-input input-textarea" id="message-text" name="text" placeholder="В свободной форме"></textarea>
       </p>
       <button class="button red" type="submit">Отправить</button>
     </form>
-    <button class="close-button" type="button" aria-label="Закрыть"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
-        <path fill="#FB565A"
-          d="M13.328 10.5l7.371-7.371a1.003 1.003 0 0 0 0-1.414L19.285.3a1.003 1.003 0 0 0-1.414 0L10.5 7.672 3.129.301a1.003 1.003 0 0 0-1.414 0L.301 1.715a1.003 1.003 0 0 0 0 1.414L7.672 10.5.301 17.871a1.003 1.003 0 0 0 0 1.414l1.415 1.414a1.003 1.003 0 0 0 1.414 0l7.371-7.371 7.371 7.371a1.003 1.003 0 0 0 1.414 0l1.414-1.414a1.003 1.003 0 0 0 0-1.414L13.328 10.5z" />
-      </svg>
-    </button>
+    <button class="close-button" type="button" aria-label="Закрыть"></button>
   </div>
 </body>
 
