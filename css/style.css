@@ -526,18 +526,16 @@ input[type="radio"].visually-hidden {
   width: 310px;
   font-size: 45px;
   font-weight: bold;
-  line-height: 10px;
   text-align: left;
   color: #000000;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .percents {
   font-size: 45px;
   font-weight: bold;
-  line-height: 10px;
+  line-height: 35px;
   text-align: left;
-  margin-bottom: 2px;
 }
 
 .sup {
@@ -1151,7 +1149,7 @@ input[type="radio"].visually-hidden {
   height: 308px;
   background-color: white;
   top: 54px;
-  left: 138px;
+  left: 134px;
 }
 
 .write-us-text {
@@ -1298,8 +1296,8 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
-.popup-email-form-label{
-  display:block;
+.popup-email-form-label {
+  display: block;
   margin: 0;
   margin-bottom: 12px;
   font-size: inherit;
